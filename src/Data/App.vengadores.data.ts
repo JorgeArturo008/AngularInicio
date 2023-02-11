@@ -9,7 +9,7 @@ export const VengadoresData = [
 {
     name: 'Hulk',
     Arma: 'Moustro',
-    foto: ''
+    foto: 'https://i.pinimg.com/originals/57/bb/bd/57bbbdcde92c68b1fe74a4b2a7ab47a8.jpg'
 }
 
 ];

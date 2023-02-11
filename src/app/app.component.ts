@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { VengadoresData } from '../Data/App.vengadores.data' ;
+
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,6 @@ import { VengadoresData } from '../Data/App.vengadores.data' ;
 export class AppComponent {
   title = 'Angular1Proyect';
 
-  Vengador1 = VengadoresData[1];
+  Vengadores = VengadoresData;
 
 }

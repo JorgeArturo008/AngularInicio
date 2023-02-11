@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import  {vengador} from 'src/Models/Vengadores';
 
 @Component({
   selector: 'app-card',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
+
+  @Input()
+  Vengador!: vengador; 
 
 }
